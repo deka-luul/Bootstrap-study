@@ -1,0 +1,55 @@
+.login-button{
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 8px 20px;
+    text-decoration: none;
+    transform: 0.3s background-color;
+    
+}
+.login-button:hover{
+    background-color: #00b383;
+}
+
+.Navbar-toggler{
+    border: none;
+    font-size: 1.2rem;
+}
+.Navbar-toggler-focus,.btn-close:focus{
+    box-shadow: none ;
+    outline: none;
+
+}
+.nav-link{
+    color:rgb(14, 12, 12);
+    font-weight: 500;
+    position: relative;
+    background-color: #00b383;
+}
+
+.nav-link:hover{
+    color: black;
+
+
+}
+.nav-link:before{
+    content: "";
+    position: absolute;
+    bottom:0 ;
+    left: 50%;
+    transform: translate(-50%);
+    width:100% ;
+    background-color: #0f8364;
+    visibility: visible;
+ transition: 0.3s ease-in-out;
+
+
+}
+.nav-link:hover::before,.nav-link:active{
+    width: 100;
+    visibility: visible;
+}
+
+
+
